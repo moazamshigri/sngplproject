@@ -1,0 +1,109 @@
+.update-container {
+  padding: 30px;
+  background: #f8fafc;
+  min-height: 100vh;
+  color: #0f172a;
+  font-family: "Inter", sans-serif;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #0f172a;
+}
+
+/* Search */
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  outline: none;
+  background: white;
+}
+
+.search-box input:focus {
+  border-color: #1b95d2;
+}
+
+.search-box button {
+  padding: 10px 16px;
+  background: #1b95d2;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background: #0f7ab3;
+}
+
+/* Table */
+.cards-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.cards-table thead {
+  background: #f1f5f9;
+}
+
+.cards-table th {
+  text-align: left;
+  padding: 14px;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #475569;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.cards-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.cards-table tr:hover {
+  background: #f8fafc;
+}
+
+/* Inputs */
+.cards-table input,
+.cards-table select {
+  width: 100%;
+  padding: 8px;
+  background: white;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  color: #0f172a;
+}
+
+.cards-table input:focus,
+.cards-table select:focus {
+  outline: none;
+  border-color: #1b95d2;
+}
+
+/* Update button */
+.cards-table button {
+  padding: 8px 14px;
+  background: #16a34a;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cards-table button:hover {
+  background: #15803d;
+}

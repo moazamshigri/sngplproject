@@ -1,0 +1,70 @@
+/* .card {
+  width: 300px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 155px;
+    margin: 5px;
+} */
+
+.card-content h2 {
+      font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.card-button {
+  align-self: flex-end; /* bottom-right */
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.card-button:hover {
+  background: #0056b3;
+}
+
+
+/* Logo container */
+.card-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* FontAwesome icon */
+.card-logo i {
+  font-size: 50px;
+  color: var(--primary);
+}
+
+/* Optional image logo */
+.card-logo img {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+}
+

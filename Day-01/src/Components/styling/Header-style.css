@@ -1,0 +1,142 @@
+/* Header container */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* logo left, menu right */
+    background-color: #1b95d2;
+    /* keep your color */
+    padding: 0 40px;
+    /* nice horizontal padding */
+    height: 84px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* subtle shadow */
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    font-family: Arial, sans-serif;
+}
+
+/* Logo styling */
+.logo {
+    background-image: url("../../assets/Images/sngpl-logo.png");
+    height: 72px;
+    width: 72px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+    /* rounded logo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Menu list */
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* push items to right */
+    gap: 25px;
+    /* space between menu items */
+}
+
+/* Menu items */
+nav ul li {
+    list-style-type: none;
+}
+
+/* Menu links */
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+    background-color: rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+}
+
+nav ul li a.active {
+    color: #ddd;
+    background-color: rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+}
+
+/* Responsive tweak for smaller screens */
+@media (max-width: 768px) {
+    nav {
+        /* flex-direction: column; */
+        height: auto;
+        padding: 20px;
+    }
+
+    nav ul {
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+}
+
+h2 {
+    margin: 40px 0;
+    color: black;
+    font-size: 47px;
+}
+
+/* Hamburger menu icon */
+.menu-icon {
+    display: none;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        position: absolute;
+        top: 84px;
+        right: 0;
+        background-color: #1b95d2;
+        width: 200px;
+        padding: 20px 0;
+        display: none;
+        /* hidden by default */
+        border-radius: 0 0 12px 12px;
+        gap: 0;
+    }
+
+    nav ul.open {
+        display: flex;
+        display: flex;
+        width: 100%;
+        height: 205px;
+        background: #3fa3d5;
+    }
+
+    nav ul li a {
+        padding: 12px 20px;
+        font-size: 18px;
+        width: 100%;
+        text-align: right;
+    }
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 42px;
+        right: 40px;
+    }
+}

@@ -1,0 +1,9 @@
+fastapi
+fastapi[standard]
+passlib[bcrypt]
+uvicorn
+sqlalchemy
+
+
+
+
