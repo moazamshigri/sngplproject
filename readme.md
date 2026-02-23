@@ -72,7 +72,7 @@ I am now focused on:
 
 ---
 
-## 📬 Connect With Me
+## 📬 Connect With Me https://my-portfolio-eosin-eta-89.vercel.app/
 
 I am always open to collaboration, learning opportunities, and building impactful systems.
 
