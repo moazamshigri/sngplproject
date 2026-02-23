@@ -35,10 +35,10 @@ The goal was to:
 
 ## 🛠️ Tech Stack Used
 
-- ⚙️ Backend: Node.js / Express (or your backend stack)
+- ⚙️ Backend: Fastapi
 - 🌐 Frontend: React.js
-- 🗄️ Database: MySQL / (mention yours)
-- ☁️ Deployment: AWS EC2
+- 🗄️ Database: SQLite
+- ☁️ Deployment: Local Server SNGPL
 - 🔐 Process Manager: PM2
 - 🖥️ OS: Linux (Kali)
 
